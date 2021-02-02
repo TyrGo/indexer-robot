@@ -11,7 +11,8 @@ import NavBar from "./NavBar"
 import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
 import Thanks from "./Thanks.js"
-import PUB_KEY from "./config.js"
+// import PUB_KEY from "./config.js"
+const PUB_KEY = process.env.REACT_APP_PUB_KEY;
 
 const stripePromise = loadStripe(PUB_KEY);
 
