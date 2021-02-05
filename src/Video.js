@@ -3,7 +3,6 @@ import reader from "./reader.mp4"
 import reader4 from "./reader4.mp4"
 
 let movies = [reader, reader4];
-console.log(movies)
 let movie = movies[Math.floor(Math.random() * movies.length)];
 
 function Video() {

@@ -1,7 +1,8 @@
 import { CardElement } from '@stripe/react-stripe-js';
 import axios from "axios";
 
-const BASE_API_URL = "http://localhost:5000";
+// const BASE_API_URL = "http://localhost:5000";
+const BASE_API_URL = "https://bookindexer1.herokuapp.com"
 
 class IndexApi {
   static async postSubmission(submission) {
